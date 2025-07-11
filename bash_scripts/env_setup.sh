@@ -28,3 +28,5 @@ fi
 echo "Activating environment '$VENV_NAME' ..."
 . /"$VENV_NAME"/bin/activate
 
+echo "Installing packages from the requirements file ..."
+pip install -r "$R_TXT"
